@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "dile-tag",
+      "description": "Web Component for a customized tag text, based on LitElement",
+      "properties": [
+        {
+          "name": "label",
+          "type": "String",
+          "description": "The label tag",
+          "default": ""
+        },
+        {
+          "name": "icon",
+          "type": "String",
+          "description": "The icon tag",
+          "default": ""
+        },
+        {
+          "name": "round",
+          "type": "Boolean",
+          "description": "Customize round tag",
+          "default": false
+        },
+        {
+          "name": "shadow",
+          "type": "Boolean",
+          "description": "Customize shadow tag",
+          "default": false
+        },
+        {
+          "name": "upper",
+          "type": "Boolean",
+          "description": "Customize uppercase text tag",
+          "default": false
+        },
+        {
+          "name": "allowClose",
+          "type": "Boolean",
+          "description": "Allow add a button close in tag",
+          "default": false
+        }
+      ],
+      "events": [
+        {
+          "name": "closed",
+          "description": "Fires whenever click in button close"
+        }
+      ],
+      "cssProperties": [
+        {
+          "name": "--dile-tag-text-color",
+          "description": "Main Text Color",
+          "type": "Color"
+        },
+        {
+          "name": "--dile-tag-background",
+          "description": "Main Background Color",
+          "type": "Background"
+        },
+        {
+          "name": "--dile-tag-padding",
+          "description": "Main Padding Block",
+          "type": "Block"
+        }
+      ]
+    }
+  ]
+}
